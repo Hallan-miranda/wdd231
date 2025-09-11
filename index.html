@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Hallan Miranda">
+    <title>Document</title>
+    <script src="scripts/getDate.js" defer></script>
+    <script src="/scripts/toggleMenu.js" defer></script>
+    <link rel="stylesheet" href="styles/home.css">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:title" content="">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <div>
+                    <img src="images/logo.png" alt="Courses WDD 231">
+                    <h1>Wed Developer</h1>
+                </div>
+                <button class="hamburguer" onclick="toggleMenu()">☰</button>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Chamber Project</a></li>
+                <li><a href="">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section >
+            <h1>Home</h1>
+            <div class="aboutMe">
+                <div>
+                    <h3>About me</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla repellendus sequi in, maiores omnis quia itaque quaerat quasi vel ducimus labore officia suscipit facilis, ipsa id voluptatem deleniti harum! Illum.</p>
+                </div>
+                <div>
+                    <h3>Student Photo</h3>
+                    <img src="images/profile.jpg" alt="profile">
+                </div>
+            </div>
+            <div class="certificate">
+                <h3>Web Certificate Courses</h3>
+                <div>
+                    <button>All</button>
+                    <button>CSE</button>
+                    <button>WDD</button>
+                </div>
+                <div class="courseMaked">
+                    <p>WDD 130</p>
+                    <p>WDD 131</p>
+                    <p>WDD 231</p>
+                </div>
+                <P>The total credits for courses above is: 6</P>
+                <div>
+                    <a href=""><img src="/images/linkedin.png" alt=""></a>
+                    <a href=""><img src="/images/x.png" alt=""></a>
+                    <a href=""><img src="/images/github.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🦗 Hallan Luis Mota Miranda 🦗 Brazil</p>
+        <p id="lastModified"></p>
+
+    </footer>
+</body>
+
+</html>
