@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hallan Luis Mota miranda">
+    <meta name="description" content="This website will serve as a resource hub for businesses in the city of Timbuktu. The site will provide information on local events, host networking opportunities, create business directories, and encourage local shopping. It aims to promote local economic growth, support local businesses, and foster a sense of community between the businesses.">
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/getDate.js" defer></script>
+    <script src="scripts/toggleMenu.js" defer></script>
+    <link rel="stylesheet" href="styles/home.css">
+    <title>Londrina Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="images/londrina logo.png" alt="Londrina logo">
+                <h1>Londrina Chamber of Commerce</h1>
+                <button class="hamburguer" onclick="toggleMenu()">☰</button>
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>Directory</li>
+                <li>Join</li>
+                <li>Dicovery</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-image">
+            <img src="images/hero-image.png" alt="Londrina">
+        </section>
+        <section class="wheater">
+            <h3>HOME</h3>
+            <div class="three_block">
+                <div class="events">
+                    <h4>Events</h4>
+                    <div>
+                        <ul>
+                            <li>Londrina Business Expo – Oct 12, 2025 – Networking and product demos at the Convention Center.</li>
+                            <li>Creative Market & Art Fair – Nov 5–6, 2025 – Handmade crafts, live music, and food trucks in Central Park.</li>
+                            <li>Tech & Innovation Summit – Dec 3, 2025 – Talks and workshops on AI and digital transformation at the University Auditorium.</li>
+                            <li>Holiday Business Mixer – Dec 20, 2025 – End-of-year celebration and networking at Café do Centro.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="current-weather">
+                    <h4>Curretn Wheater</h4>
+                    <img id="weather-icon" src="" alt="Ícone do clima">
+                    <p id="current-temp"></p>
+                    <p id="weather-desc"></p>
+                    <p id="high-low"></p>
+                    <p id="humidity"></p>
+                    <p id="sunrise-sunset"></p>
+    
+                </div>
+                <div class="forecast">
+                    <h4>Wheater Forecast</h4>
+                    <div id="forecast-days"></div>
+                </div>
+            </div>
+        </section>
+        <section class="peoples">
+            <div>
+                <h5>Marina Costa</h5>
+                <p>Design que inspira negócios</p>
+                <div>
+                    <img src="images/female.png" alt="perfil">
+                    <p><strong>EMAIL</strong>: marina@costacriativa.com</p>
+                    <p><strong>PHONE</strong>: (43) 99876-4321</p>
+                    <p><strong>URL</strong>: www.costacriativa.com.br</p>
+                </div>
+            </div>
+            <div>
+                <h5>João Ribeiro</h5>
+                <p>Soluções inteligentes para o seu dia a dia</p>
+                <div>
+                    <img src="images/male.png" alt="perfil">
+                    <p><strong>EMAIL</strong>: contato@ribeirotech.com</p>
+                    <p><strong>PHONE</strong>: (43) 99654-3210</p>
+                    <p><strong>URL</strong>: www.ribeirotech.com</p>
+                </div>
+            </div>
+            <div>
+                <h5>Ana Martins</h5>
+                <p>Transformando momentos em memórias</p>
+                <div>
+                    <img src="images/female.png" alt="perfil">
+                    <p><strong>EMAIL</strong>: ana@martinseventos.com</p>
+                    <p><strong>PHONE</strong>: (43) 99788-1122</p>
+                    <p><strong>URL</strong>: www.martinseventos.com.br</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h5>Londrina Chamber of Commerce</h5>
+            <p>rua londrinesse 230, centro</p>
+            <p>info@londrinacc.org</p>
+            <p>(43)12345678</p>
+        </div>
+        <div>
+            <a href=""><img src="images/github.png" alt=""></a>
+            <a href=""><img src="images/linkedin.png" alt=""></a>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Hallan Miranda</p>
+            <p>©<span id="currentyear"></span> Londrina Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
